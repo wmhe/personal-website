@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1024px) {
+	/*------------------------------------
+ 			About section
+	--------------------------------------*/
+	#about .profile-pic {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+
+	/*------------------------------------
+	 			About section
+	--------------------------------------*/
+	#about .profile-pic {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*------------------------------------
+	 			About section
+	--------------------------------------*/
+	#about .col-sm-4 {
+		display: none;
+	}
+}

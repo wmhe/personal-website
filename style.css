@@ -1,0 +1,82 @@
+<style>
+
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.hero-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("background.jpg");
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.profile-island{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+#home {
+	
+}
+
+#about h3 {
+	color: white;
+}
+
+#about p{
+	color: #7A7A7A;
+}
+
+#about {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #2B2B2B;
+}
+
+#about .profile-pic {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+#education {
+	padding-top: 25px;
+}
+
+#experience {
+	padding-top: 25px;
+}
+
+#projects {
+	padding-top: 25px;
+}
+
+#contact {
+	padding-top: 70px;
+	padding-bottom: 270px;
+	width: 100%;
+}
+
+img.logo{
+	text-align: center;
+	height: 40px;
+	transition: 0.3s ease-out;
+	padding: 0px 5px 0px;
+}
+
+img.logo:hover{
+	transform: scale(1.3);
+}
+
+</style>
